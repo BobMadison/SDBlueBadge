@@ -1,0 +1,18 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace _12_APIs.Models
+{
+    public class Planet
+    {
+        public string Name { get; set; }
+        public string Climate { get; set; }
+        public int Diameter { get; set; }
+        public int Population { get; set; }
+        public DateTime Created { get; set; }
+
+    }
+}
